@@ -1,0 +1,23 @@
+{
+  "name": "smart-wallet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "gabreu",
+  "license": "ISC",
+  "dependencies": {
+    "@ethereumjs/tx": "^3.5.2",
+    "@openzeppelin/contracts": "^4.7.3",
+    "dotenv": "^16.0.2",
+    "solc": "^0.6.10",
+    "web3": "1.7.5"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.14",
+    "tslint": "^5.12.1",
+    "typescript": "^3.9.10"
+  }
+}
